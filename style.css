@@ -1,0 +1,35 @@
+.dataOutput {
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.wrap {
+    width: 100%;
+    position: relative;
+}
+
+.panel {
+    width: 25%;
+    display: inline-block;
+    height: 120px;
+    overflow: hidden;
+}
+
+.panel img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.panel .content {
+    width: 100%;
+    font-size: 0.7em;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    z-index: 100;
+}
